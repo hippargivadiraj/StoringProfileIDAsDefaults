@@ -11,6 +11,7 @@
 		BC8589D425D9AF1000D46DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8589D325D9AF1000D46DCF /* ContentView.swift */; };
 		BC8589D625D9AF1100D46DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8589D525D9AF1100D46DCF /* Assets.xcassets */; };
 		BC8589D925D9AF1100D46DCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8589D825D9AF1100D46DCF /* Preview Assets.xcassets */; };
+		BC8589E225D9B0B300D46DCF /* CelciusSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8589E125D9B0B300D46DCF /* CelciusSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BC8589D525D9AF1100D46DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8589D825D9AF1100D46DCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC8589DA25D9AF1100D46DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8589E125D9B0B300D46DCF /* CelciusSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelciusSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BC8589D125D9AF1000D46DCF /* StoringProfileIDAsDefaultsApp.swift */,
 				BC8589D325D9AF1000D46DCF /* ContentView.swift */,
+				BC8589E125D9B0B300D46DCF /* CelciusSetting.swift */,
 				BC8589D525D9AF1100D46DCF /* Assets.xcassets */,
 				BC8589DA25D9AF1100D46DCF /* Info.plist */,
 				BC8589D725D9AF1100D46DCF /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8589E225D9B0B300D46DCF /* CelciusSetting.swift in Sources */,
 				BC8589D425D9AF1000D46DCF /* ContentView.swift in Sources */,
 				BC8589D225D9AF1000D46DCF /* StoringProfileIDAsDefaultsApp.swift in Sources */,
 			);
